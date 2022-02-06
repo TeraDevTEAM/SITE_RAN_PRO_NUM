@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');                    /* IMPORT POLICE ROBOTO */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');          /* IMPORT POLICE ROBOTO CONDENSED*/
+
+*, *:after, *:before {          /* ?? */
+    box-sizing: border-box;     /* ?? */
+}
+
+header {
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    /* color: #707070; */
+    font-weight: 600; 
+    color: #253568;
+    /* padding: 1em; */               /* NE PAS METTRE DE PADDING POUR COLLER PLUS AU HAUT DE LA PAGE NAVIGATEUR */
+    /* text-align: center;  */
+}
+
+body {
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    /* color: #707070; */
+    color: #253568;
+    font-weight: 600;
+    /* padding: 5em; */
+    padding: 1em;
+}
+
+/* .container {
+    padding: 50px;
+} */
+
+.container-bandeauhautaccueil {background-color: #FFFFFF;}
+/* .container-fluid {background-color: #C1C1C1;} */
+
+/* .element { */           /* POUR LES CADRES GRIS D ESSAI COULEUR GRIS 1/4 BAS MIL G 1/4 BAS DDD ETC... */
+
+    /* background-color: #C1C1C1;
+    padding: 1em;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+} */
+
+/* .element > .row > [class*="col"] > .element { */    /* POUR ? LES CADRES GRIS D ESSAI COULEUR GRIS 1/4 BAS MIL G 1/4 BAS DDD ETC... */
+    /* padding: 1em;
+    font-size: inherit;
+    text-align: inherit;
+    background-color: #FFFFFF;
+    border: 1px solid #707070;
+} */
+
+#menu1 a{
+    color: #253568;
+    text-align: center;
+}      /* COULEUR DU TEXTE DU NAVBAR DU HAUT PAGE ACCUEIL */
+/* #menu2 a{color: white;}  */     /* ???? pas encore actif COULEUR DU TEXTE DU 1ER BANDEAU DU HAUT PAGE ACCUEIL ...DEBUTEZ VOTRE FORMATION...VOUS INSCRIRE...*/
+
+/* #first .element {background-color: #E1E1E1;}
+#second .element {background-color: #B6B6B6;}
+#third .element {background-color: #A9E9E9;} */
+.surbandeauduhautbleufonce1 {
+    color: white;
+    background-color: #253568;
+    text-align: center; 
+}
+
+.titreblancfondbleu1 {     /* titre une formation tres innovante texte blanc sur fond bleu fonce et eutres titres idem */
+    color: white;
+    background-color: #253568;
+    text-align: center; 
+    }
+
+.titregrosbleusansfond {     /* titre une formation tres innovante texte blanc sur fond bleu fonce et eutres titres idem */
+        /* color: white; */
+        /* background-color: #253568; */
+        text-align: center;
+        font-weight: normal; 
+        font-size: 2em;        
+        color: #253568;
+    }    
+
+.titregrosblancsansfond {     /* titre une formation tres innovante texte blanc sur fond bleu fonce et eutres titres idem */
+    color: white;
+    /* background-color: #253568; */
+    text-align: center; 
+    }
+
+.titregrosbleuclairsansfond {     /* titre une formation tres innovante texte blanc sur fond bleu fonce et eutres titres idem */
+        color: #909FD0;
+        /* background-color: #253568; */
+        text-align: left; 
+    } 
+    
+    /* *********POUR LE BANDEAU BLEUC FONCE DU BAS AVEC LOGOS SOCIAUX ***********/
+.bandeaubastitregrosbleuclairsansfond {     /* titre une formation tres innovante texte blanc sur fond bleu fonce et eutres titres idem */
+        vertical-align: text-top;
+        color: #909FD0;
+        /* background-color: #253568; */
+        text-align: left;
+        /* vertical-align: top;  */
+    }
+.bandeaubastitregrosblancsansfond {     /* titre une formation tres innovante texte blanc sur fond bleu fonce et eutres titres idem */
+        color: white;
+        /* background-color: #253568; */
+        text-align: left; 
+}
+    /* *********POUR LE BANDEAU BLEUC FONCE DU BAS AVEC LOGOS SOCIAUX ************/
+
+
+
+
+.divimageprof1 {   /* fixe la taille 400X300px de la div de l'image du prof pour qu'elle ne soit pas trop enorme  */
+    width: 400px;height: 350px;
+} 
+.imageboussole1 {   /* fixe la taille 200X150px de la div de l'image de la boussole pour qu'elle ne soit pas trop enorme  */
+    width: 200px;height: 150px;
+} 
+
+.imageprof1 {           /* permet que l'image du prof s'adapte qu'en en responsive on reduit largeur ecran */
+    /* margin-right: 400px; */
+    width: 100%;
+}
+/* img {width: 300px;height: 300px;} */
+
+.divimagecodeblabla1 {   /* fixe la taille 400X300px de la div de l'image du prof pour qu'elle ne soit pas trop enorme  */
+    /* width: 400px;height: 400px; */
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+        
+
+.imgpresentationdelaformation1 {
+    width: 300px;
+    height:200px;}
+.imgpresentationdelaformation2 {
+    width: 400px;
+    height:267px;} 
+    
+                                                                    /* MICHEL */
+.elementbandeaugris1 {
+        background-color: #909FD0;
+        padding: 1em;
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: 600;
+    } 
+
+    .elementbandeaurouge1 {
+        /* background-color: red;    ANCIENNEMENT BANDEAU ROUGE PENDANT LA CONSTRUCTION DU SITE */
+        background-color: #253568;        
+        padding: 1em;
+        font-size: 1.2rem;
+        text-align: left;
+        font-weight: 600;
+    } 
+
+.elementbandeaufondrectangle {
+        background-color: red;
+        padding: 1em;
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: 600;
+    }    
+
+.card-title {
+    text-align: center;   
+}  
+
+.card-text {
+    text-align: center;   
+}  
+************************************* CI DESSOUS PARTIE FAO QUE J AI REINTEGRE*****************************************
+                                                            /* FAO */
+li {
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight:700;
+    font-size: 1.2em;
+    /* color:RED; */
+}
+
+.imgpresentationdelaformation1 {  /* FAO*/
+    width: 300px;
+    height:200px;}
+
+.imgpresentationdelaformation2 {   /* FAO*/
+        width: 400px;
+        height:267px;} 
+
+.titrebleufondblancpresentationdelaformation {     /* FAO*/
+       
+        font-size: 2.5em;
+        font-weight: 700;
+}        
+ 
+.soustitrebleufondblancpresentationdelaformation {     /* FAO*/
+            font-weight: 600;
+            font-size: 2rem;
+        
+}
+
+/*.p {
+    font-weight: 100;
+    font-size: 2.5em;           /*FAO*/
+
+.titrebleufondblanctemoignages {
+    font-weight: 700;             /*FAO*/
+    font-size: 2.5em;
+}
+.containerpageyschools {
+    background-color: #253568;      /*FAO*/
+
+}
+
+.imgpresentationyschools1 {
+
+        width: 250px;
+        height:250px;}                  /*FAO*/
+
+.imgpresentationyschools2 {             /*FAO*/
+    justify-content: right;
+    width:  250px;
+    height: 250px;} 
+
+.imgyschools {
+    justify-content: center;                    /*FAO*/
+    width:  300px;
+    height: 200px;}
+
+.titreyschools  {
+        font-weight: 700;                   /*FAO*/
+        font-size:   2.5em;
+    
+    }
+.texteyschools {
+        font-weight: 400;                  /*FAO*/
+        font-size:   1em;
+    }
+
+.texteyschools2 {
+        font-size:   1em;    
+}
+.imgformulairedecontact {
+    width: 300px;
+    height:200px;
+}
+.titrebleufondblancformulairedecontact {
+    font-weight: 700;             /*FAO*/
+    font-size: 2.5em;
+}
+
+
+.infoP {
+    background-color: #253568;
+    color: #fff;                     /* FAO */
+    font-weight: 400;
+}
+
+.loginBtn button {
+    padding: .5rem 1em .5rem 1em;
+    background-color: #6e75b0;       /*FAO*/
+    border: none;
+    border-radius: 5px;
+    color: #253568;
+    margin-right: 2rem;
+}
+
+#map {
+    height: 250px;                     /*FAO*/
+    width: 350px;
+}
+
+.imgGE {                             /*FAO*/
+    height: 100px;
+    object-fit: fill;
+    width: 350px;
+}
+
+.couleurChamps {
+    color: red;                    /*FAO*/
+}
+.btn {
+    background-color: #253568;
+    color: #FFFFFF;                 /*FAO*/
+    width: 100px;
+    border-radius: 10px;
+}
